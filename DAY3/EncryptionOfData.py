@@ -1,0 +1,5 @@
+password=input("Enter ther password")
+password=password.replace('@','#')
+password=password.replace('A','a')
+password=password.replace('1','2')
+print(password)

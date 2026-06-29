@@ -1,0 +1,8 @@
+text=input("Enter the sentence")
+text=text.replace('an','')
+text=text.replace('a','')
+text=text.replace('the','')
+text=text.replace('AN','')
+text=text.replace('A','')
+text=text.replace('THE','')
+print(text)
